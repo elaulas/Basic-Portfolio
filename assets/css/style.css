@@ -109,6 +109,7 @@ footer {
     padding: 20px;
     position: absolute;
     bottom: 0;
+
 }
 
 hr {
@@ -121,3 +122,28 @@ a {
     color: lightgray;
 }
 
+#contact-form {
+margin-left: 50px;
+}
+
+#contact-form {
+    font-size: 14pt;
+    color: #666666;
+}
+
+#submit {
+    padding: 10px 25px 10px 25px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 12pt;
+}
+
+#contact-name,
+#contact-email,
+#contact-message {
+    margin-bottom: 20px;
+}
+
+#contact-name {
+    margin-top: 20px;
+}
