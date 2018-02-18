@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://image.freepik.com/free-vector/background-with-gray-texture_1048-5175.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header {
+    background-color: white;
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.container-main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    width: 220px;
+    padding: 40px;
+    margin-left: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+#menu {
+    float: right;
+    margin: 40px 200px 0px 0px;
+    font-size: 16pt;
+}
+
+#header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#first-header {
+    margin-left: 50px;
+    color: #4aaaa5;
+}
+
+#my-image {
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+#left-column {
+    width: 650px;
+    float: left;
+    background-color: white;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+}
+
+p {
+    float: right;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+#right-column {
+    width: 270px;
+    margin-left: 40px;
+    background-color: white;
+    float: left;
+    padding-bottom: 45px;
+
+}
+
+#github, #linkedin {
+    height: auto;
+    width: 75px;
+}
+
+#stackoverflow {
+        height: auto;
+        width: 75px;
+    
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#contact {
+    text-align: center;
+    color: #4aaaa5;
+}
+
+#social {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    width: 100%;
+    float: left;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+hr {
+    border-color: lightgray;
+    border-width: .5px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
