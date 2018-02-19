@@ -1,149 +1,138 @@
+/* * Teal color (used for headings and backgrounds): `#4aaaa5`
+* Regular font color (used for paragraphs and all text besides the headings): `#777777`
+* Main header background color: `#ffffff`
+* Main header border color: `#cccccc`
+* Footer background color: `#666666`
+* Main content background color: `#ffffff`
+* Main content border color: `#dddddd` */
+
+
 body {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     background-image: url(https://image.freepik.com/free-vector/background-with-gray-texture_1048-5175.jpg);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-header {
-    background-color: white;
-    float: left;
-    width: 100%;
-    margin-bottom: 50px;
 }
 
 .container-main {
     width: 960px;
     margin: 0 auto;
+
 }
 
-h1 {
-    color: white;
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border: #cccccc;
+    border-width: 5px;
+    margin-bottom: 25px;
+}
+
+
+#my-name {
     background-color: #4aaaa5;
-    width: 220px;
-    padding: 40px;
-    margin-left: 15%;
-    margin-top: 0;
-    margin-bottom: 0;
-    float: left;
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    color: #ffffff;
+    padding: 20px;
 }
 
 #menu {
+    width: fit-content;
     float: right;
-    margin: 40px 200px 0px 0px;
-    font-size: 16pt;
+    position: relative;
+    margin-top: 30px;
+    color: #cccccc
 }
 
-#header::after {
+.menu {
+    color: #cccccc;
+    text-decoration: none;
+    padding: 5px
+}
+
+#left-column {
+    width: 650px;
+    background-color: #ffffff;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#first-header {
+    color: #4aaaa5;
+    margin-left: 25px;
+}
+
+#my-image {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+}
+
+#my-image,
+#first-header,
+{
+    margin-left: 25px;
+}
+
+#bio {
+    width: 375px;
+    margin-top: 0;
+    margin-left: 25px;
+    float: left;
+}
+
+#right-column {
+    width: 270px;
+    background-color: #ffffff;
+    float: right;
+    padding-bottom: 25px;
+}
+
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
 
-#first-header {
-    margin-left: 50px;
+#contact {
     color: #4aaaa5;
+    text-align: center;
 }
 
-#my-image {
-    width: 200px;
-    height: auto;
-    margin-left: 50px;
-}
-
-#left-column {
-    width: 650px;
+#github,
+#stackoverflow,
+#linkedin {
+    width: 50px;
     float: left;
-    background-color: white;
-    padding-bottom: 60px;
-    margin-bottom: 50px;
-}
 
-p {
-    float: right;
-    width: 50%;
-    margin-right: 50px;
-    margin-left: 25px;
-    margin-top: 0;
-}
-
-#right-column {
-    width: 270px;
-    margin-left: 40px;
-    background-color: white;
-    float: left;
-    padding-bottom: 45px;
-
-}
-
-#github, #linkedin {
-    height: auto;
-    width: 75px;
 }
 
 #stackoverflow {
-        height: auto;
-        width: 75px;
-    
-}
-
-hr {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-#contact {
-    text-align: center;
-    color: #4aaaa5;
+    height: 45px;
+    margin-top: 3px;
 }
 
 #social {
-    margin-left: 20px;
+    margin-left: 55px;
+}
+
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 footer {
     background-color: #666666;
-    color: white;
-    width: 100%;
-    float: left;
+    border-top-color: #4aaaa5;
+    border-top-width: 50px;
+    color: #ffffff;
+    text-align: center;
     padding: 20px;
     position: absolute;
+    right: 0;
     bottom: 0;
-
-}
-
-hr {
-    border-color: lightgray;
-    border-width: .5px;
-}
-
-a {
-    text-decoration: none;
-    color: lightgray;
-}
-
-#contact-form {
-margin-left: 50px;
-}
-
-#contact-form {
-    font-size: 14pt;
-    color: #666666;
-}
-
-#submit {
-    padding: 10px 25px 10px 25px;
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 12pt;
-}
-
-#contact-name,
-#contact-email,
-#contact-message {
-    margin-bottom: 20px;
-}
-
-#contact-name {
-    margin-top: 20px;
+    left: 0;
 }
