@@ -134,6 +134,15 @@ hr {
     font-size: 14pt;
 }
 
+::placeholder {
+    color: gray;
+    opacity: .5;
+}
+
+#message {
+    position: static;
+}
+
 #submit {
     background-color: #4aaaa5;
     color: #ffffff;
