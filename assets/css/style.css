@@ -36,6 +36,7 @@ header {
     margin: 0px;
     color: #ffffff;
     padding: 20px;
+    font-size: 20pt;
 }
 
 #menu {
@@ -57,11 +58,14 @@ header {
     background-color: #ffffff;
     float: left;
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 #first-header {
     color: #4aaaa5;
     margin-left: 25px;
+    font-size: 16pt;
+    padding: 10px 0px 10px 0px;
 }
 
 #my-image {
@@ -88,6 +92,7 @@ header {
     background-color: #ffffff;
     float: right;
     padding-bottom: 25px;
+    padding-top: 10px;
 }
 
 .clearfix::after {
@@ -99,6 +104,8 @@ header {
 #contact {
     color: #4aaaa5;
     text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 16pt;
 }
 
 #github,
@@ -238,7 +245,7 @@ footer {
     border-top-width: 50px;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -251,7 +258,7 @@ footer {
     border-top-width: 50px;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     position: relative;
     right: 0;
     bottom: 0;
