@@ -72,6 +72,7 @@ header {
     width: 200px;
     float: left;
     margin-left: 25px;
+    margin-right: 25px;
 }
 
 #my-image,
@@ -81,10 +82,10 @@ header {
 }
 
 #bio {
-    width: 375px;
+    width: 92%;
     margin-top: 0;
     margin-left: 25px;
-    float: left;
+
 }
 
 #right-column {
